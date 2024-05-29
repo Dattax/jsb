@@ -73,12 +73,6 @@ Email us at: sales@juliahub.com
 
 Visit us at: https://juliahub.com/products/batteries
 
-# JuliaSim Batteries: high-performance lithium-ion battery simulations
-
-JuliaSim Batteries is one piece of the JuliaSim ecosystem.
-
-![Graphical user interface](figures/gui.png)
-
 ## More Details of `JuliaSimBatteries`
 
 ![Lifetime simulation](figures/lifetime.gif)
@@ -89,3 +83,9 @@ JuliaSim Batteries is one piece of the JuliaSim ecosystem.
 + **Single Particle Model with electrolyte (`SPMe`)** -- The `SPMe` model is a popular model to understand lithium-ion battery behavior. It simplifies the battery into a single particle for each electrode, considering electrolyte dynamics within the cell. This model allows for efficient simulations and provides valuable insights into cell-level behavior and degradation mechanisms.
 
 + **Single Particle Model (`SPM`)** -- The `SPM` model is a simplified version of the `SPMe` model, commonly used by technical battery engineers for quick and computationally efficient simulations. It represents the battery as single particles in both electrodes without considering the electrolyte dynamics. While less detailed than the `DFN` or `SPMe` models, the `SPM` model is effective for initial assessments, rapid battery analysis, and large-scale pack simulations.
+
+## JuliaSim Batteries Simulation
+
+JuliaSim Batteries is one piece of the JuliaSim ecosystem. To learn more about [JuliaSim, click here](https://juliahub.com/products/juliasim).
+
+![Graphical user interface](figures/gui.png)
