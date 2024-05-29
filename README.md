@@ -8,13 +8,11 @@ Physical prototyping can take weeks – our product can cut down your prototypin
 
 JuliaSim Batteries helps you reduce time and overhead to build better batteries 10x faster and at a much lower cost.
 
-See it in action [Video]
-
 ## Introduction
 
 JuliaSim Batteries is an advanced lithium-ion battery simulation tool integrating sophisticated electrochemical, thermal, and degradation physics. Utilizing the Doyle-Fuller-Newman (DFN) model, it can predict a battery's entire lifetime with fast charging 150,000 times faster than real time. The number of connected batteries is scalable from one cell to packs of thousands using electrochemical models. Scientific Machine Learning (SciML) enables the discovery of hidden governing laws from data, such as degradation and low-temperature behavior. Characterize material properties and propose battery designs using the parameter estimation and optimization tools in JuliaSim.
 
-[screenshot]
+![ProductScreenshot](image1.jpg)
 
 Building accurate models are essential for understanding, optimizing, and designing batteries. Physically accurate battery models are computationally expensive and difficult to solve robustly. `JuliaSimBatteries` is more than 100 times faster than other battery modeling tools while solving the same physics, thanks to the speed of the [Julia](https://julialang.org/) programming language. Bring your battery workflow to the next level to solve challenging problems:
 + **Pack modeling** -- `JuliaSimBatteries` is performant and enables the predictive power of electrochemical models for large-scale battery packs.
@@ -37,15 +35,35 @@ Building accurate models are essential for understanding, optimizing, and design
 
 JuliaSim Batteries offers several electrochemical models in cells, modules, and packs
 
-[screenshot]
+![Configuration Screenshot](image2.jpg)
+
+**How to set up a battery configuration:**
+1. In the first panel at the top, select from a pre-existing battery model (from the dropdown).
+2. From the chemistry preset, select your battery chemistry.
+3. Choose whether this setup is for a single cell or packs of cells with the number in series and parallel.
+
+You can also click the “Show Advanced Options” button to edit the battery components and chemistry even more.
 
 ### 2: Build Experiments
 
-[screenshot]
+![Experiments Screenshot](image3.png)
 
-### 2: Run Predictive Analysis
+**Setting up experiments:**
 
-[screenshot]
+The experiments panel lets you create a number of steps - each of which will be part of the overall experiment you are running with your battery. 
+1. The first thing to set is the initial state of charge of the battery (a fraction from 0 - 1).
+2. Then, you’ll have a panel box for each step. Set the mode, the input value, and the time for this step. You can move each panel box around to change the order and also hit “repeat” to repeat a series of steps.
+
+### 3: Run Predictive Analysis
+
+![Analysis Screenshot](image4.jpg)
+
+**Analyzing your experiment:**
+
+Now that you’ve set up an experiment, you can run the results to see how your battery performs. 
+1. Select from a number of views and a number of plots
+2. Those plots will appear on the screen
+3. You can edit the time scale of the plots and change the number of cycles
 
 ## Contact Us 
 
