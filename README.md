@@ -12,7 +12,7 @@ JuliaSim Batteries helps you reduce time and overhead to build better batteries 
 
 JuliaSim Batteries is an advanced lithium-ion battery simulation tool integrating sophisticated electrochemical, thermal, and degradation physics. Utilizing the Doyle-Fuller-Newman (DFN) model, it can predict a battery's entire lifetime with fast charging 150,000 times faster than real time. The number of connected batteries is scalable from one cell to packs of thousands using electrochemical models. Scientific Machine Learning (SciML) enables the discovery of hidden governing laws from data, such as degradation and low-temperature behavior. Characterize material properties and propose battery designs using the parameter estimation and optimization tools in JuliaSim.
 
-![ProductScreenshot](image1.jpg)
+![Product Screenshot](image3.png)
 
 Building accurate models are essential for understanding, optimizing, and designing batteries. Physically accurate battery models are computationally expensive and difficult to solve robustly. `JuliaSimBatteries` is more than 100 times faster than other battery modeling tools while solving the same physics, thanks to the speed of the [Julia](https://julialang.org/) programming language. Bring your battery workflow to the next level to solve challenging problems:
 + **Pack modeling** -- `JuliaSimBatteries` is performant and enables the predictive power of electrochemical models for large-scale battery packs.
@@ -35,7 +35,7 @@ Building accurate models are essential for understanding, optimizing, and design
 
 JuliaSim Batteries offers several electrochemical models in cells, modules, and packs
 
-![Configuration Screenshot](image2.jpg)
+![Battery Screenshot](image4.jpg)
 
 **How to set up a battery configuration:**
 1. In the first panel at the top, select from a pre-existing battery model (from the dropdown).
@@ -46,7 +46,7 @@ You can also click the “Show Advanced Options” button to edit the battery co
 
 ### 2: Build Experiments
 
-![Experiments Screenshot](image3.png)
+![Experiments Screenshot](image2.jpg)
 
 **Setting up experiments:**
 
@@ -56,7 +56,7 @@ The experiments panel lets you create a number of steps - each of which will be 
 
 ### 3: Run Predictive Analysis
 
-![Analysis Screenshot](image4.jpg)
+![Analysis Screenshot](image1.jpg)
 
 **Analyzing your experiment:**
 
